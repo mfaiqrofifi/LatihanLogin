@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    gap: 2px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.flex-item{
+    flex: 1;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Assets/a147dcae6cf5469281f5e8857859783e.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+.container-header h1{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-size: 4vw;
+    padding: 20px;
+}
+
+.login{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    color: #666666;
+}
+
+.login .Header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Header h2{
+    color: black;
+}
+
+.login form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.login form .login-user{
+    display: block;
+    margin: 5px;
+}
+
+.login-user+input{
+    width: 100%;
+    height: 30px;
+    border: lightgray 2px solid;
+    border-radius: 5px;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+input[type="radio"] {
+    width: 11px; /* Lebar radio button */
+    height: 11px; /* Tinggi radio button */
+    margin-right: 8px; /* Jarak antara radio button dan label */
+    cursor: pointer; /* Menambahkan kursor pointer */
+    border-radius: 2px;
+}
+
+.radio label{
+    color: black;
+}
+
+.submit{
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6A0DAD;
+    color: white;
+}
+.forgot-pw{
+    font-size: 12px;
+}
+.forgot-pw span{
+    font-weight: bolder;
+}
